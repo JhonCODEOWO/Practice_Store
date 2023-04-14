@@ -1,0 +1,69 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    /* margin-bottom: 50px; */
+    height: 100%;
+    /* background-color: blue; */
+    margin-bottom: 40px;
+    font-family: consolas;
+}
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+.header{
+    height: 50px;
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+}
+
+.main{
+    padding-top: 50px;
+    display: block;
+    background-color: green;
+    height: 100%;
+}
+
+.menuLateral{
+    width: 100%;
+    background-color: blue;
+}
+
+.menuLateral p{
+    padding: 0;
+    margin: 0;
+}
+
+.gridProductos{
+    background-color: cadetblue;
+    width: 100%;
+}
+
+.producto{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.producto img{
+    width: 30%;
+    background-color:white;
+}
+
+.info{
+    width: 70%;
+    background-color: aqua;
+}
+
+.footer{
+    height: 40px;
+    background-color: azure;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
